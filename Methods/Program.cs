@@ -46,14 +46,20 @@ namespace Methods
             //Console.WriteLine("How old are you ?");
             //int userAge = int.Parse(Console.ReadLine());
             //Console.WriteLine("The user will retire in "+RetirementCalculator(userAge)+" years.");
+            //double myHours = 42.3d;
+            //double myPay = 12.5d;
 
+            //Console.WriteLine("Your monthly wage is {0}",WageCalculator(myHours,myPay));
 
+            //Create two methods of your choosing at least one of your methods should have a non void return type.
+            //Remeber when naming your method that is should represent what your method does.//
+            //Your method should only aim to accomplish one thing.
 
 
 
         }
 
-
+        public static void 
         public static double WageCalculator(double hoursWorked, double hourlyWage)
         {
             double monthlyWage = (hoursWorked * 52 * hourlyWage) / 12;
